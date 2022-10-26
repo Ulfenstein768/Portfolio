@@ -1,0 +1,45 @@
+{
+  "id": "tracka_backgroundand_title",
+  "type": "SharedSlice",
+  "name": "TrackaBackgroundandTitle",
+  "description": "TrackaBackgroundandTitle",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TrackaBackgroundandTitle",
+      "primary": {},
+      "items": {
+        "backgroundimage": {
+          "type": "Image",
+          "config": {
+            "label": "backgroundImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "projecttitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "projectTitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "techstack": {
+          "type": "StructuredText",
+          "config": {
+            "label": "techStack",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

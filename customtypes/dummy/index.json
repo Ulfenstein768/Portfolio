@@ -1,0 +1,41 @@
+{
+  "id": "dummy",
+  "label": "frae",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "title",
+          "placeholder": ""
+        }
+      },
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "bacgroundw_title": {
+              "type": "SharedSlice"
+            },
+            "p_frae_overview": {
+              "type": "SharedSlice"
+            },
+            "techused": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

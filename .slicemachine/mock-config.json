@@ -1,0 +1,125 @@
+{
+  "_cts": {
+    "tst": {},
+    "test": {},
+    "project0": {},
+    "dummy": {},
+    "shinywaffle": {}
+  },
+  "slices": {
+    "Title": {},
+    "Project1": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "BacgroundwTitle": {
+      "default": {
+        "items": {
+          "subtitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "primary": {}
+      }
+    },
+    "PFraeOverview": {
+      "default": {
+        "primary": {},
+        "items": {
+          "projectind": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "overview": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "projectinfo": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Techused": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "FraeTechused": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "TrackaBackgroundandTitle": {
+      "default": {
+        "primary": {},
+        "items": {
+          "projecttitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "techstack": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "TrackOverview": {
+      "default": {
+        "primary": {},
+        "items": {
+          "projectind": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "overvie": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "projectinfo": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "TrackaTechused": {}
+  }
+}

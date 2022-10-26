@@ -1,0 +1,46 @@
+{
+  "id": "track_overview",
+  "type": "SharedSlice",
+  "name": "TrackOverview",
+  "description": "TrackOverview",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TrackOverview",
+      "primary": {},
+      "items": {
+        "projectind": {
+          "type": "StructuredText",
+          "config": {
+            "label": "projectind",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "overvie": {
+          "type": "StructuredText",
+          "config": {
+            "label": "overview",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "projectinfo": {
+          "type": "StructuredText",
+          "config": {
+            "label": "projectinfo",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

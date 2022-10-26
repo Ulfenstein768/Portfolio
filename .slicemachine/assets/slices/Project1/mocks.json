@@ -1,0 +1,35 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "backgroundimage": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da"
+      },
+      "title": [
+        {
+          "type": "heading3",
+          "text": "Means",
+          "spans": []
+        }
+      ],
+      "info": [
+        {
+          "type": "paragraph",
+          "text": "Labore enim quis velit commodo laborum aute.",
+          "spans": []
+        }
+      ]
+    },
+    "slice_type": "title"
+  }
+]
