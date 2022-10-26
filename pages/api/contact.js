@@ -16,18 +16,17 @@ const handler = async (req, res) => {
   try {
     const emailRes = await transporter.sendMail({
       from: email,
-      to: "utbodvarsson@gmail.com",
+      to: "reciever@gmail.com",
       subject: `Contact form submission from ${name}`,
-      html: `<p>You have a new contact form submission</p><br>
-      <p><strong>Name: </strong> ${name} </p><br>
-      <p><strong>Message: </strong> ${message} </p><br>
-      
-      `,
+      html: `<p>New contact form submission from ${name}</p>
+        <p><strong>Name: </strong> ${name}</p>
+        <p><strong>Email: </strong> ${email}</p>
+        <p><strong>Message: </strong> ${message}</p>`,
     });
 
-    console.log("Message Sent", emailRes.messageId);
+    console.log("message sent", emailRes.messageId);
   } catch (err) {
-    console.log(err);
+    console.log("err", err);
   }
 
   res.status(200).json(req.body);
