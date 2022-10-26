@@ -35,7 +35,6 @@ export default function Home() {
 
   return (
     <div>
-      {/* NEED TO FIX WIDTH FOR THE FORM. */}
       <div className="w-h h-full">
         <form
           onSubmit={handleSubmit(onSubmitForm)}
