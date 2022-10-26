@@ -4,12 +4,11 @@ const handler = async (req, res) => {
   const { name, email, message } = req.body;
 
   const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true,
+    host: "smtp.ethereal.email",
+    port: 587,
     auth: {
-      user: process.env.MAIL_USER,
-      pass: process.env.MAIL_PASS,
+      user: "anahi.altenwerth99@ethereal.email",
+      pass: "BHcTAcJ4Mzwppxg34S",
     },
   });
 
