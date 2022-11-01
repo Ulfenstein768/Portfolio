@@ -15,7 +15,8 @@ export default function Home() {
   async function onSubmitForm(values) {
     let config = {
       method: "post",
-      url: `http://localhost:3000/api/contact`,
+      url: `${process.env.NEXT_PUBLIC_API_URL}/api/contact`,
+      // Change url to current live url /api/contact
       headers: {
         "Content-Type": "application/json",
       },
