@@ -155,7 +155,7 @@ const Navbar = () => {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 496 512"
-                      class="w-4 h-4"
+                      className="w-4 h-4"
                     >
                       <path
                         fill="currentColor"
