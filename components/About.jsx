@@ -32,8 +32,8 @@ function About() {
           <Image
             src="/assets/portrait.jpg"
             alt="portait"
-            width="320"
-            height="320"
+            width="360"
+            height="360"
           />
         </div>
       </div>
