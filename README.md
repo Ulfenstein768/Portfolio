@@ -1,6 +1,6 @@
 # Úlfur Þór | Web developer portfolio
 
-[ Live site ](https://somelink)
+[ Live site ](https://portfolio-ulfurthor.vercel.app/)
 
 This is the last assignment I did for the Reyjavík Academy of Web development.
 
@@ -25,7 +25,7 @@ For my portfolio I used a series of different technologies, here is a list of th
 
 ## Installation
 
-The portfolio should be online and the link can be found here [Link](https://somelink) or on top of this document,
+The portfolio should be online and the link can be found here [Link](https://portfolio-ulfurthor.vercel.app/) or on top of this document,
 but if it is not for some reason you can always fork this repository and clone it onto your device.
 
 ```
