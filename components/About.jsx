@@ -30,9 +30,9 @@ function About() {
         </div>
         <div className="w-full h-auto m-auto flex items-center justify-center py-4 hover:scale-105 ease-in duration-300">
           <Image
-            src="/assets/portrait.png"
+            src="/assets/portrait.jpg"
             alt="portait"
-            width="250"
+            width="320"
             height="375"
           />
         </div>

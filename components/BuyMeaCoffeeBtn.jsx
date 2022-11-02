@@ -9,7 +9,7 @@ function BuyMeACoffeeButton() {
       <a href="https://www.buymeacoffee.com/ulfurerulfu">
         <Image
           style={{ height: "90px" }}
-          height={110}
+          height={90}
           width={300}
           alt="Buy Me a Coffee Widget"
           src="/assets/buymecoffee.png"
