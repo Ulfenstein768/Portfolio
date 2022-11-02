@@ -33,7 +33,7 @@ function About() {
             src="/assets/portrait.jpg"
             alt="portait"
             width="320"
-            height="375"
+            height="320"
           />
         </div>
       </div>
